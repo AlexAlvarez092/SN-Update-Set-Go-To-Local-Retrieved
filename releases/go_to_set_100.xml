@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2023-04-20 14:13:54">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Go to local / retrieved update set</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>51b6cc0a1b562110c30243f8cd4bcb93</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-04-20 14:13:53</sys_created_on>
+<sys_id>010904ca1b562110c30243f8cd4bcb26</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-04-20 14:13:53</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_f7c7cc0a1b562110c30243f8cd4bcb0b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;go_to_local_update_set&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;!current.update_set.nil()&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;false&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;true&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Go to Local Update Set&lt;/name&gt;&lt;onclick&gt;goTo()&lt;/onclick&gt;&lt;order&gt;10000&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function goTo() {
+	location.href = 'sys_update_set.do?sys_id=' + g_scratchpad.localUpdateSet;
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;false&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-20 14:08:37&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f7c7cc0a1b562110c30243f8cd4bcb0b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Go to Local Update Set&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_f7c7cc0a1b562110c30243f8cd4bcb0b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-20 14:08:37&lt;/sys_updated_on&gt;&lt;table&gt;sys_remote_update_set&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1578037828</payload_hash>
+<remote_update_set display_value="Go to local / retrieved update set">010904ca1b562110c30243f8cd4bcb26</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-04-20 14:13:53</sys_created_on>
+<sys_id>050904ca1b562110c30243f8cd4bcb27</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1879efee4a90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-04-20 14:13:53</sys_updated_on>
+<table>sys_remote_update_set</table>
+<target_name>Go to Local Update Set</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>fbc7cc0a8b562110a753249baee8660c</update_guid>
+<update_guid_history>fbc7cc0a8b562110a753249baee8660c:1578037828</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_a3c6404a1b562110c30243f8cd4bcb9d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;go_to_retrieved_update_set&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;!current.remote_sys_id.nil()&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;false&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;true&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Go to Retrieved Update Set&lt;/name&gt;&lt;onclick&gt;goTo()&lt;/onclick&gt;&lt;order&gt;10000&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function goTo() {
+	location.href = 'sys_remote_update_set.do?sys_id=' + g_scratchpad.remoteUpdateSet;
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;false&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-20 14:07:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a3c6404a1b562110c30243f8cd4bcb9d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Go to Retrieved Update Set&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_a3c6404a1b562110c30243f8cd4bcb9d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-20 14:07:07&lt;/sys_updated_on&gt;&lt;table&gt;sys_update_set&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>206646070</payload_hash>
+<remote_update_set display_value="Go to local / retrieved update set">010904ca1b562110c30243f8cd4bcb26</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-04-20 14:13:53</sys_created_on>
+<sys_id>410904ca1b562110c30243f8cd4bcb27</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1879efd85760000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-04-20 14:13:53</sys_updated_on>
+<table>sys_update_set</table>
+<target_name>Go to Retrieved Update Set</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>f177c84a835621106f7dfb1b811a6217</update_guid>
+<update_guid_history>f177c84a835621106f7dfb1b811a6217:206646070</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_role_e9e7808a1b562110c30243f8cd4bcb25</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role"><sys_ui_action_role action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-20 14:09:26</sys_created_on><sys_id>e9e7808a1b562110c30243f8cd4bcb25</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Go to Local Update Set.admin</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_action display_value="Go to Local Update Set">f7c7cc0a1b562110c30243f8cd4bcb0b</sys_ui_action><sys_update_name>sys_ui_action_role_e9e7808a1b562110c30243f8cd4bcb25</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-20 14:09:26</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role></sys_ui_action_role></record_update>]]></payload>
+<payload_hash>1055826260</payload_hash>
+<remote_update_set display_value="Go to local / retrieved update set">010904ca1b562110c30243f8cd4bcb26</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-04-20 14:13:53</sys_created_on>
+<sys_id>890904ca1b562110c30243f8cd4bcb27</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1879effa26b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-04-20 14:13:53</sys_updated_on>
+<table/>
+<target_name>Go to Local Update Set.admin</target_name>
+<type>UI Action Role</type>
+<update_domain>global</update_domain>
+<update_guid>e7f7048ab2562110cca287a6008fb7b2</update_guid>
+<update_guid_history>e7f7048ab2562110cca287a6008fb7b2:1055826260</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_7918848a1b562110c30243f8cd4bcb93</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sys_update_set&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="sys_update_set"&gt;remote_sys_idISNOTEMPTY^EQ&lt;item endquery="false" field="remote_sys_id" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Remote id to scratchpad&lt;/name&gt;&lt;order&gt;10000&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	g_scratchpad.remoteUpdateSet = current.getValue('remote_sys_id');
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-20 14:11:59&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7918848a1b562110c30243f8cd4bcb93&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Remote id to scratchpad&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_7918848a1b562110c30243f8cd4bcb93&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-20 14:11:59&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before_display&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7918848a1b562110c30243f8cd4bcb93"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1441898213</payload_hash>
+<remote_update_set display_value="Go to local / retrieved update set">010904ca1b562110c30243f8cd4bcb26</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-04-20 14:13:53</sys_created_on>
+<sys_id>8d0904ca1b562110c30243f8cd4bcb26</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1879f01fade0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-04-20 14:13:53</sys_updated_on>
+<table>sys_update_set</table>
+<target_name>Remote id to scratchpad</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>1d984c8a74562110c67bd7abc331de7c</update_guid>
+<update_guid_history>1d984c8a74562110c67bd7abc331de7c:-1441898213</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_2de88c8a1b562110c30243f8cd4bcb5d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sys_remote_update_set&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="sys_remote_update_set"&gt;update_setISNOTEMPTY^EQ&lt;item endquery="false" field="update_set" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Local id to scratchpad&lt;/name&gt;&lt;order&gt;10000&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	g_scratchpad.localUpdateSet = current.getValue('update_set');
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-20 14:13:22&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2de88c8a1b562110c30243f8cd4bcb5d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Local id to scratchpad&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_2de88c8a1b562110c30243f8cd4bcb5d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-20 14:13:22&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before_display&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2de88c8a1b562110c30243f8cd4bcb5d"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-619960566</payload_hash>
+<remote_update_set display_value="Go to local / retrieved update set">010904ca1b562110c30243f8cd4bcb26</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-04-20 14:13:53</sys_created_on>
+<sys_id>c50904ca1b562110c30243f8cd4bcb26</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1879f0341f70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-04-20 14:13:53</sys_updated_on>
+<table>sys_remote_update_set</table>
+<target_name>Local id to scratchpad</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>2de88c8ae95621109372aec8c359665f</update_guid>
+<update_guid_history>2de88c8ae95621109372aec8c359665f:-619960566</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_role_78d68c0a1b562110c30243f8cd4bcba7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role"><sys_ui_action_role action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-20 14:07:07</sys_created_on><sys_id>78d68c0a1b562110c30243f8cd4bcba7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.admin</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_action display_value="">a3c6404a1b562110c30243f8cd4bcb9d</sys_ui_action><sys_update_name>sys_ui_action_role_78d68c0a1b562110c30243f8cd4bcba7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-20 14:07:07</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role></sys_ui_action_role></record_update>]]></payload>
+<payload_hash>1761269309</payload_hash>
+<remote_update_set display_value="Go to local / retrieved update set">010904ca1b562110c30243f8cd4bcb26</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-04-20 14:13:53</sys_created_on>
+<sys_id>c50904ca1b562110c30243f8cd4bcb27</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1879efd85150000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-04-20 14:13:53</sys_updated_on>
+<table/>
+<target_name>.admin</target_name>
+<type>UI Action Role</type>
+<update_domain>global</update_domain>
+<update_guid>7d774c0a76562110400592bb022a2e52</update_guid>
+<update_guid_history>7d774c0a76562110400592bb022a2e52:1761269309</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

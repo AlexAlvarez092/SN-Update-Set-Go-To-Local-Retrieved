@@ -8,6 +8,8 @@
 
 Simple UI actions redirecting from Retrieved update set to local update set and in the other way around
 
+![show tool](./README/picture_1.png)
+
 # Installation
 
 - Option 1. Committing [update set](./releases/go_to_set_100.xml)
