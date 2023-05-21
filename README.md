@@ -12,7 +12,7 @@ Simple UI actions redirecting from Retrieved update set to local update set and 
 
 # Installation
 
-- Option 1. Committing [update set](./releases/go_to_set_100.xml)
+- Option 1. Clone repository
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlexAlvarez092/SN-Go-To-Local-Retrieved.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlexAlvarez092/SN-Go-To-Local-Retrieved/graphs/contributors
